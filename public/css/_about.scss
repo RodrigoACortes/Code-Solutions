@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+};
+
+#container {
+	display: inline-block;
+    width: 85%;
+    border: 2px solid black;
+};
+
+/* _about.scss (6, 5) */
+#pic {
+    width: 20%;
+    padding-left: 5px;
+};
+
+/* _about.scss (19, 6) */
+#box {
+    width: 75%;
+    height: 100px;
+    border: 2px solid blue;
+    float: left;
+};
+
+ul {
+    list-style-type: georgian;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f3f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+};
+
+li a {
+    display: block;
+    color: #101;
+    padding: 5px 10px;
+    text-decoration: none;
+};
+
+li a.active {
+    background-color: #5CAF50;
+    color: white;
+};
+
+li a:hover:not(.active){ 
+    background-color: #755;
+    color: white;   
+}
