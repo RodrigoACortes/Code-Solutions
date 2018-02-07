@@ -1,6 +1,6 @@
 require 'sinatra'
 
-get '/' do
+get '/home' do
   erb :home
 end
 

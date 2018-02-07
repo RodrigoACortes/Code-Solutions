@@ -1,4 +1,3 @@
-
 .wrapper {
   margin: 0 auto;
   text-align: center; }
@@ -62,5 +61,13 @@ li a.active {
 li a:hover:not(.active) {
   background-color: #755;
   color: white; }
+
+.container {
+  width: 80%;
+  border: 2px solid black; }
+
+#picture {
+  height: 170px;
+  float: left; }
 
 /*# sourceMappingURL=main.css.map */
