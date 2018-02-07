@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,QAAS;EACP,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,MAAM;;AAGpB,KAAM;EACJ,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,SAAS;EACjB,OAAO,EAAE,YAAY;EACrB,MAAM,EAAE,IAAI;;AAGd,QAAS;EACP,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,cAAc;;AAGxB,cAAe;EACb,QAAQ,EAAE,QAAQ",
+"sources": ["_news.scss"],
 "names": [],
 "file": "main.css"
 }
