@@ -1,3 +1,23 @@
+
+.wrapper {
+  margin: 0 auto;
+  text-align: center; }
+
+.news {
+  width: 700px;
+  height: 400px;
+  border: 1px solid;
+  display: inline-block;
+  margin: 30px; }
+
+.picture {
+  width: 250px;
+  height: 180px;
+  border: 1px solid blue; }
+
+.story_content {
+  position: absolute; }
+
 * {
   margin: 0;
   padding: 0; }
