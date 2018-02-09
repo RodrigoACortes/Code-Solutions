@@ -2,7 +2,7 @@ require 'sinatra'
 require 'sendgrid-ruby'
 include SendGrid
 
-get '/home' do
+get '/' do
   erb :home
 end
 
