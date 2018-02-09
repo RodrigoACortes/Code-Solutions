@@ -1,5 +1,10 @@
-.wrapper {
-  margin: 0; }
+body {
+  background-image: url("../images/news/news_background.png");
+  background-size: cover; }
+
+.news_wrapper {
+  margin: 0;
+  margin-top: 25px; }
 
 .news {
   width: 1100px;
@@ -19,7 +24,14 @@
 #photo1 {
   background-image: url("../images/news/CEO.jpg");
   background-size: contain;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin-right: 50px; }
+
+#photo2 {
+  background-image: url("../images/news/honeycomb.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 50px; }
 
 * {
   margin: 0;

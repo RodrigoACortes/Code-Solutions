@@ -1,5 +1,11 @@
-.wrapper {
+body {
+  background-image: url("../images/news/news_background.png");
+  background-size: cover;
+}
+
+.news_wrapper {
   margin: 0;
+  margin-top: 25px;
 }
 
 .news {
@@ -15,17 +21,21 @@
   float: left;
 }
 
-.content{
+.content {
   font-size: 36pt;
   text-align: left;
 }
 
 #photo1 {
-  background-image: url('../images/news/CEO.jpg');
-background-size: contain;
-background-repeat: no-repeat;
+  background-image: url("../images/news/CEO.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 50px;
 }
 
 #photo2 {
-
+  background-image: url("../images/news/honeycomb.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 50px;
 }
