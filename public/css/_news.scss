@@ -1,12 +1,10 @@
 .wrapper {
-  margin: 0 auto;
-  text-align: center;
+  margin: 0;
 }
 
 .news {
   width: 1100px;
   height: 400px;
-  border: 1px solid;
   display: inline-block;
   margin: 30px;
 }
@@ -14,9 +12,19 @@
 .picture {
   width: 300px;
   height: 400px;
-  border: 1px solid blue;
+  float: left;
 }
 
-.story_content {
-  position: absolute;
+.content{
+  font-size: 36pt;
+  text-align: left;
+}
+
+#photo1 {
+  background-image: url('../images/news/CEO.jpg');
+background-size: contain;
+}
+
+#photo2 {
+
 }
