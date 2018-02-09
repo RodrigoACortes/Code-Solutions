@@ -122,9 +122,9 @@ body, html {
 /* The hero image */
 .main_img {
   /* The image used */
-  background-image: url("images/waves_Brush.jpg");
+  background-image: url("../images/waves_Brush.jpg");
   /* Set a specific height */
-  height: 50%;
+  height: 350px;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
