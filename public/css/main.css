@@ -44,14 +44,13 @@ body {
 
 /* _about.scss (6, 5) */
 #pic {
-  width: 20%;
+  width: 24%;
   padding-left: 5px; }
 
 /* _about.scss (19, 6) */
 #box {
   width: 75%;
   height: 100px;
-  border: 2px solid blue;
   float: left; }
 
 ul {
@@ -84,7 +83,11 @@ li a:hover:not(.active) {
 
 #picture {
   height: 170px;
-  float: left; }
+  float: left;
+  margin-right: 10px; }
+
+h1 {
+  color: blue; }
 
 input[type=text], select, textarea {
   width: 100%;
@@ -150,10 +153,10 @@ body, html {
 .main_img_text {
   text-align: center;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 45%;
   transform: translate(-50%, -50%);
-  color: white; }
+  color: black; }
 
 .clearfix::after {
   content: "";
