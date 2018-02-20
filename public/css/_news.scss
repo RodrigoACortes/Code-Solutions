@@ -1,6 +1,6 @@
 body {
   background-image: url("../images/news/news_background.png");
-  background-size: cover;
+  background-size: auto;
 }
 
 .news_wrapper {
@@ -22,7 +22,7 @@ body {
 }
 
 .content {
-  font-size: 36pt;
+  font-size: 37pt;
   text-align: left;
 }
 
@@ -30,12 +30,19 @@ body {
   background-image: url("../images/news/CEO.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  margin-right: 50px;
+  margin-right: 60px;
 }
 
 #photo2 {
   background-image: url("../images/news/honeycomb.png");
   background-size: contain;
   background-repeat: no-repeat;
-  margin-right: 50px;
+  margin-right: 60px;
+}
+
+#photo3 {
+  background-image: url("../images/news/Team.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 60px;
 }
